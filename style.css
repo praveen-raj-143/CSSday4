@@ -1,0 +1,136 @@
+.raj{
+    width: 300px;
+    height: 250px;
+    background-image: radial-gradient(
+        white,
+        black
+    );
+    position: relative;
+    left: 200px;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.navbar1{
+    
+    background-color: rgb(123, 213, 255);
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.chrome{
+    width: 250px;
+    height: 75px;    
+    background-image: url(./png-clipart-google-chrome-logo-computer-icons-web-browser-google-text-logo-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+}
+.box{
+    width: 80px;
+    height: 20px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    padding: 8px;
+    cursor: pointer;
+}
+.box2{
+    
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    margin: 10px;
+
+}
+@media screen and (min-width:250px) and (max-width:650px){
+    .box2{
+        flex-direction: column;        
+    }
+}
+.buttons1{
+    
+    right: 150px;
+    display: flex;
+    flex-direction: row;     
+}
+.btn3{
+    width: 75px;
+    padding: 5px;
+    margin: 10px;
+    border-color: rgb(0, 173, 253);
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(0, 173, 253);
+    cursor: pointer;
+}
+.btn3:hover{
+    color: black;
+}
+.btn4{
+    width: 75px;
+    padding: 5px;
+    margin: 10px;
+    border-color: rgb(0, 173, 253);
+    border-radius: 5px;
+    background-color: rgb(0, 173, 253);
+    color: white;
+    cursor: pointer;
+}
+.btn4:hover{
+    color: black;
+}
+@media (min-width:360px) and (max-width:650px) {
+    .buttons1{
+        flex-direction: column;
+    }
+    .btn3{
+        border-color: rgb(0, 253, 55);
+        color: rgb(0, 253, 55);
+    }
+    .btn4{
+        border-color: rgb(0, 253, 55);
+        background-color: rgb(0, 253, 55);
+    }
+}
+@media (min-width:650px) and (max-width:1150px) {
+    .buttons1{
+        flex-direction: column;
+    }
+    .btn3{
+        border-color: rgb(253, 0, 0);
+        color: rgb(253, 0, 0);
+    }
+    .btn4{
+        border-color: rgb(253, 0, 0);
+        background-color: rgb(253, 0, 0);
+    }
+}
+.flex-container{
+    
+    display: flex;
+    margin: 10px;
+}
+.flex-items{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 10px;
+}
